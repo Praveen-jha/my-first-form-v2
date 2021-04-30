@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="beckend.php" class="form1">
+      <div>
+        <div>
+          <marquee behavior="alternate" onmousedown="stop">
+            <h3>Fill The Form To Learn HTML.</h3></marquee>
+          
+          
+        </div>
+        <fieldset><legend>Personal Information</legend>
+        <div>
+        First Name :
+        <input
+        
+          type="text"
+          name="fname"
+          id="fname"
+          placeholder="praveen "
+          required
+          class="special"
+        />
+      </div>
+
+      <div>
+        Last Name :
+        <input type="text" name="lname" id="lname" placeholder="jha" required class="special" />
+      </div>
+
+      <div>
+        Father's Name :
+        <input type="text" name="fathername" id="fathername" class="special" />
+      </div>
+    </fieldset>
+
+      <div>
+        gender : male <input type="radio" name="gender" id="male" /> Female
+        <input type="radio" name="gender" id="female" />
+        Custom <input type="radio" name="gender" id="custom">
+      </div>
+
+      <div>Date Of Birth : <input type="date" name="date" id="date" class="special" /></div>
+
+      <div>
+        Qualification :
+        <select name="qualification" id="qualification" class="special">
+          <option value="secondary education">secondary education</option>
+          <option value="higher secondary education">
+            higher secondary education
+          </option>
+          <option value="graduation ">graduation</option>
+        </select>
+      </div>
+      <div>
+        City :
+        <select name="city" id="city" required class="special">
+          <option value="delhi">Delhi</option>
+          <option value="jodhpur">Jodhpur</option>
+          <option value="raipur">Raipur</option>
+          <option value="mumbai">Mumbai</option>
+          <option value="bihar">Bihar</option>
+          <option value="mop">Others</option>
+        </select>
+      </div>
+
+      <div>Email : <input type="email" name="email" id="email" required  class="special"/></div>
+      <div>
+        Password :
+        <input type="password" name="password" id="password" required class="special" />
+      </div>
+
+      <div>upload a pic : <input type="file" name="file" id="file" class="special" /></div>
+      <!-- <marquee behavior="alternate" direction="right" -->
+        <!-- ><h3>Payment Section</h3></marquee -->
+      <!-- > -->
+      <fieldset class="paymentoption"><legend>Payment Section..</legend>
+      <div>
+        Enter Payment Type :
+        <select name="payment" id="payment" required class="special">
+          <option value="Paytm">Paytm</option>
+          <option value="GPay">GPay</option>
+          <option value="PhonePay">PhonePay</option>
+          <option value="Card">Card</option>
+        </select>
+      </div>
+      <div>
+        Enter Card Number :
+        <input type="number" name="cardno" id="cardnum"  class="special"/>
+      </div>
+      <div>
+        Enter CVV :
+        <input type="number" id="cvv" class="special" />
+      </div>
+      <div>
+        Enter Expiry Date :
+        <input type="date" id="expdate"  class="special"/>
+      </div>
+      <div class="pay">
+        <input type="button" value="Pay Now" name="paynow" class="paynow">
+      </div>
+    </fieldset>
+     <div class="btn">
+
+       <input type="submit" class="btnn" />
+       <input type="reset" class="btnn"/>
+      </div>
+    </form>
+  </body>
+</html>

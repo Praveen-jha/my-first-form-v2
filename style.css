@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(204, 243, 31);
+  background-repeat: no-repeat;
+ background-size: 100%;
+ /* background-origin: border-box; */
+
+}
+form{
+  display:block;
+  width: 80%;
+  margin: 5px auto;
+
+}
+
+marquee {
+  background-color: yellow;
+  font-style: italic;
+  color: blue;
+  height: fit-content;
+}
+.special{
+  border-radius: 10px;
+  margin: 5px;
+}
+div{
+  color: blue;
+}
+#free{
+  color: black;
+}
+.paynow:hover{
+  cursor: pointer;
+  background-color: grey;
+  color: red;
+  
+}
+.paynow:active{
+  background-color: yellow;
+}
+.pay input{
+  border:2px solid grey;
+  border-radius: 10px;
+  width: 100px;
+  margin-left: 40px;
+}
+.btnn:hover{
+  background-color: grey;
+  color: red;
+  cursor: pointer;
+  
+}
+.btnn:active{
+  background-color: yellow;
+}
+.btn input{
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px 5px;
+  width: 70px;
+}
+
